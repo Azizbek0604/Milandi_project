@@ -1,0 +1,48 @@
+@import './fonts';
+@import './variables';
+@import './mixins';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+a{text-decoration: none;}
+button{cursor: pointer; transition: 0.3s;}
+input{outline: none;}
+
+@import './components/corusel';
+@import './components/buttons';
+
+@import './components/header';
+@import './components/footer';
+
+@import './pages/home';
+@import './pages/about';
+@import './pages/категории';
+@import './pages/page_4';
+@import './pages/page_5';
+@import './pages/page_6';
+@import './pages/page_7';
+@import './pages/zakaz';
+@import './pages/oplata';
+@import './pages/registratsiya_1';
+@import './pages/registratsiya_2';
+@import './pages/empty';
+@import './pages/вход';
+@import './pages/registratsiya';
+
+
+@import './components/media';
